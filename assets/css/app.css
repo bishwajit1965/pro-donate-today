@@ -1,0 +1,242 @@
+/* Global styles
+======================*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+/* Title header
+================== */
+.title-header {
+  padding: 3rem 22.2rem;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Top header styles
+==================== */
+.top-header {
+  background-image: url(../images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100 100;
+  height: 30rem;
+  padding: 8rem;
+  text-align: center;
+}
+
+.top-header > h1 {
+  font-size: 4rem;
+  color: #ff7b00;
+  /* text-align: center; */
+  font-weight: 900;
+}
+
+.top-header > p {
+  font-size: 1rem;
+  color: #ff7b00;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+/* Title text styles
+==================== */
+.title-text-style {
+  color: #fa7901;
+}
+
+/* gradient button styles
+========================= */
+.gradient-button {
+  margin: 2rem 0rem;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 1px 3px rgba(247, 21, 21, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.gradient-button {
+  background-image: linear-gradient(to right, #e62d11, #ff7b00, #ff7b00);
+}
+
+.gradient-button:hover {
+  background-position: right center;
+}
+
+.gradient-button {
+  box-shadow: 1px 2px 15px hsl(29, 87%, 43%);
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+/* Flex container wrapper
+========================= */
+.flex-container-wrapper {
+  padding: 2rem 22rem;
+}
+
+/* Flex container styles
+======================== */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* Donation form styles
+======================= */
+.form-wrapper {
+  padding: 2rem 22rem;
+}
+
+#donate {
+  width: 100%;
+}
+
+input[type="text"] {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: #edeff0;
+}
+
+#submit-btn input {
+  margin: 2rem 14rem;
+}
+
+/* Donate today styles
+====================== */
+div.donation-box {
+  background-color: #fafafa;
+  color: #666;
+  width: 6.5rem;
+  height: 6.5rem;
+  padding: 2.2rem 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+/* Donation plan styles
+======================= */
+.donation-plan-flex-wrapper {
+  padding: 0rem 15rem;
+}
+.donation-plan-box {
+  width: 17rem;
+  height: 17rem;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+}
+
+#box-left {
+  background-color: #ddd;
+}
+
+#box-center {
+  background-color: #96b9ec;
+}
+
+#box-right {
+  background-color: #f7dc92;
+}
+
+#medicine-img {
+  width: 3.4em;
+  height: 3.4em;
+}
+
+.donation-plan-box > h3 {
+  margin-top: 1rem;
+}
+
+.donation-plan-box > p {
+  font-size: 0.8rem;
+  margin-top: 1.1rem;
+}
+
+/* My bonus point styles
+======================== */
+
+/* Additional part styles
+========================= */
+
+/* Get mMy updates styles
+========================= */
+.get-my-updates {
+  padding: 0rem 22rem;
+  margin-bottom: 5rem;
+}
+
+.subscription-form {
+  padding: 3.5rem 10rem;
+  background-color: #f7d5b5;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+#email {
+  padding: 0.5rem;
+  margin-right: -0.2rem;
+}
+
+.submit-button {
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  background-color: #ff5959;
+  margin-left: 0rem;
+}
+
+.get-my-updates > p {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Footer area styles
+===================== */
+.footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding: 1.5rem 20rem;
+  color: #5b5b5b;
+}
+.footer > h1 {
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.footer > p {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
