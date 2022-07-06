@@ -34,23 +34,26 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100 100;
-  height: 30rem;
-  padding: 8rem;
+  height: 34rem;
+  padding: 5.5rem 15rem;
   text-align: center;
 }
 
 .top-header > h1 {
   font-size: 4rem;
-  color: #ff7b00;
-  /* text-align: center; */
-  font-weight: 900;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .top-header > p {
   font-size: 1rem;
-  color: #ff7b00;
-  line-height: 2.5rem;
+  color: #fff;
+  line-height: 1.5rem;
   text-align: center;
+}
+#header-gradient-btn {
+  margin-top: 4rem;
 }
 
 /* Title text styles
@@ -105,7 +108,7 @@ h1 {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   border-radius: 0.5rem;
@@ -128,6 +131,7 @@ input[type="text"] {
   border-radius: 0.5rem;
   background-color: #fff;
   color: #edeff0;
+  text-align: center;
 }
 
 #submit-btn input {
@@ -144,6 +148,12 @@ div.donation-box {
   padding: 2.2rem 0.5rem;
   border-radius: 0.5rem;
   text-align: center;
+  border: 1px solid#999;
+}
+
+#active {
+  background-color: #f7c9c2;
+  border: 2px solid orangered;
 }
 
 /* Donation plan styles
@@ -156,6 +166,7 @@ div.donation-box {
   height: 17rem;
   padding: 2rem 1rem;
   border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.2rem 1rem #ddd;
 }
 
 #box-left {
@@ -186,9 +197,28 @@ div.donation-box {
 
 /* My bonus point styles
 ======================== */
-
-/* Additional part styles
-========================= */
+.flex-gallery-wrapper {
+  padding: 0rem 15rem;
+}
+div.gallery-image {
+  background-color: #fafafa;
+  color: #666;
+  width: 10.2rem;
+  height: 8.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 0.2rem 0.2rem;
+  box-shadow: 0.5rem 0.5rem 1.5rem #ddd;
+}
+.gallery-image img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100 100;
+  width: 100%;
+  height: 8.5rem;
+  border-radius: 0.6rem;
+  margin-top: 0rem;
+}
 
 /* Get mMy updates styles
 ========================= */
@@ -202,6 +232,7 @@ div.donation-box {
   background-color: #f7d5b5;
   margin-top: 2rem;
   border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.3rem 1rem #ddd;
 }
 
 #email {
@@ -213,7 +244,12 @@ div.donation-box {
   padding: 0.5rem;
   border-radius: 0.1rem;
   background-color: #ff5959;
-  margin-left: 0rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #e62d11;
 }
 
 .get-my-updates > p {
@@ -229,10 +265,12 @@ div.donation-box {
   padding: 1.5rem 20rem;
   color: #5b5b5b;
 }
+
 .footer > h1 {
   font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .footer > p {
   font-size: 0.9rem;
   color: #999;
